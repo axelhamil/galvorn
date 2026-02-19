@@ -1,8 +1,8 @@
-# Ferrum
+# Galvorn
 
 > Rust's Option and Result primitives for TypeScript
 
-Ferrum provides type-safe `Option<T>` and `Result<T, E>` types inspired by Rust's standard library. Zero dependencies, ESM only, 100% test coverage.
+Galvorn provides type-safe `Option<T>` and `Result<T, E>` types inspired by Rust's standard library. Zero dependencies, ESM only, 100% test coverage.
 
 ## Public API
 
@@ -25,13 +25,13 @@ Abstract types (for type annotations):
 ## Install
 
 ```
-pnpm add ferrum
+pnpm add galvorn
 ```
 
 ## Quick Example
 
 ```typescript
-import { Some, None, Ok, Fail, match, Option, Result } from 'ferrum';
+import { Some, None, Ok, Fail, match, Option, Result } from 'galvorn';
 
 // Option
 const name = Some('Alice');
@@ -50,5 +50,5 @@ match(Ok(42), {
 
 ## Documentation
 
-- Full docs: https://github.com/axelhamil/ferrum
+- Full docs: https://github.com/axelhamil/galvorn
 - Detailed API: llms-full.txt

@@ -1,4 +1,4 @@
-# Ferrum — Full API Reference
+# Galvorn — Full API Reference
 
 > Rust's Option and Result primitives for TypeScript
 
@@ -145,7 +145,7 @@ result.toString(): string    // "Ok(value)" or "Err(error)"
 ## Standalone match()
 
 ```typescript
-import { match } from 'ferrum';
+import { match } from 'galvorn';
 
 // Option overload
 match<T, U>(value: Option<T>, patterns: { Some: (value: T) => U; None: () => U }): U
@@ -170,7 +170,7 @@ export { Fail, Ok, Result } from './result.js';
 All imports come from the package root:
 
 ```typescript
-import { Some, None, Ok, Fail, match, Option, Result } from 'ferrum';
+import { Some, None, Ok, Fail, match, Option, Result } from 'galvorn';
 ```
 
 ---
@@ -190,7 +190,7 @@ Internal classes are NOT exported. Use factory functions `Some()`, `None()`, `Ok
 
 ## Source
 
-- Repository: https://github.com/axelhamil/ferrum
+- Repository: https://github.com/axelhamil/galvorn
 - License: MIT
 - Runtime: Node >= 20, ESM only
 - Build: tsdown (ESM, dts, sourcemap, minify)

@@ -1,5 +1,5 @@
 {
-  "name": "ferrum",
+  "name": "galvorn",
   "version": "1.0.0",
   "description": "Rust's Option and Result for TypeScript. Fully typed, tested, zero dependencies.",
   "type": "module",
@@ -7,12 +7,12 @@
   "author": "axelhamil",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/axelhamil/ferrum.git"
+    "url": "git+https://github.com/axelhamil/galvorn.git"
   },
   "bugs": {
-    "url": "https://github.com/axelhamil/ferrum/issues"
+    "url": "https://github.com/axelhamil/galvorn/issues"
   },
-  "homepage": "https://github.com/axelhamil/ferrum#readme",
+  "homepage": "https://github.com/axelhamil/galvorn#readme",
   "packageManager": "pnpm@10.26.0",
   "engines": {
     "node": ">=20"

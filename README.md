@@ -1,14 +1,14 @@
-# ferrum
+# galvorn
 
 Rust's `Option` and `Result` for TypeScript. Fully typed, tested, zero dependencies.
 
 ```bash
-pnpm add ferrum
+pnpm add galvorn
 ```
 
 ## Why
 
-TypeScript lacks a standard way to represent optional values and fallible operations without `null`, `undefined`, or `try/catch`. Ferrum brings Rust's algebraic types to TypeScript with an idiomatic API and complete type safety.
+TypeScript lacks a standard way to represent optional values and fallible operations without `null`, `undefined`, or `try/catch`. Galvorn brings Rust's algebraic types to TypeScript with an idiomatic API and complete type safety.
 
 - **Option\<T\>** replaces `T | null | undefined`
 - **Result\<T, E\>** replaces `try/catch` and `{ data, error }` patterns
@@ -20,7 +20,7 @@ TypeScript lacks a standard way to represent optional values and fallible operat
 ### Option
 
 ```typescript
-import { Some, None, Option } from 'ferrum';
+import { Some, None, Option } from 'galvorn';
 
 const name = Some('Alice');
 const empty = None<string>();
@@ -71,7 +71,7 @@ const opt = Option.fromNullable(document.getElementById('app'));
 ### Result
 
 ```typescript
-import { Ok, Fail, Result } from 'ferrum';
+import { Ok, Fail, Result } from 'galvorn';
 
 const success = Ok(42);
 const failure = Fail('something went wrong');
@@ -130,7 +130,7 @@ const combined = Result.combine([Ok(1), Ok(2), Ok(3)]); // Ok([1, 2, 3])
 ### Standalone match
 
 ```typescript
-import { match, Some, Ok } from 'ferrum';
+import { match, Some, Ok } from 'galvorn';
 
 // Works with both Option and Result
 const msg = match(Some(42), {

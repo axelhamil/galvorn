@@ -1,4 +1,4 @@
-# Ferrum
+# Galvorn
 
 Rust's Option and Result primitives for TypeScript. Zero dependencies, 100% test coverage.
 
