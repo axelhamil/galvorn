@@ -1,3 +1,11 @@
+## [1.0.1](https://github.com/axelhamil/galvorn/compare/v1.0.0...v1.0.1) (2026-02-19)
+
+
+### Bug Fixes
+
+* publish under new package name galvorn ([fb312da](https://github.com/axelhamil/galvorn/commit/fb312dade7baf1b60303506ee50dfe2bccac5b8f))
+* trigger npm publish for galvorn package ([647a588](https://github.com/axelhamil/galvorn/commit/647a5882e4c207230f4f1a7065efe2f675924a7b))
+
 # 1.0.0 (2026-02-19)
 
 
