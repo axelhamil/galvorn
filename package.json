@@ -30,7 +30,8 @@
     "node": ">=20"
   },
   "files": [
-    "dist"
+    "dist",
+    "!dist/*.map"
   ],
   "main": "./dist/index.js",
   "module": "./dist/index.js",
