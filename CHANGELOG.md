@@ -1,3 +1,11 @@
+## [1.0.3](https://github.com/axelhamil/galvorn/compare/v1.0.2...v1.0.3) (2026-02-19)
+
+
+### Bug Fixes
+
+* add persist-credentials false to checkout for PAT auth ([f330ceb](https://github.com/axelhamil/galvorn/commit/f330ceb20518eec5f5d2cf54dd112ded602e7fbd))
+* use PAT for semantic-release to bypass branch protection ([3b7cea2](https://github.com/axelhamil/galvorn/commit/3b7cea2aabd1b68588d1d24b1d40d5d7cab7107e))
+
 ## [1.0.1](https://github.com/axelhamil/galvorn/compare/v1.0.0...v1.0.1) (2026-02-19)
 
 
